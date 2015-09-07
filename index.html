@@ -4,26 +4,28 @@
     <meta charset="UTF-8">
     <title>Compartir Personal | Tablero de avisos</title>
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="estilos.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="http://fezvrasta.github.io/bootstrap-material-design/dist/css/material-fullpalette.min.css">
+    <!--link(rel="stylesheet", href="http://www.andresdominguez.mx/beta/estilos.css")-->
     <link href="http://fonts.googleapis.com/css?family=Lato:900" rel="stylesheet" type="text/css">
   </head>
   <body>
-    <section class="landing">
-      <article class="header col-xs-12">
-        <header>
+    <section id="banner" class="col-xs-12">
+      <article class="menu-movil"><span class="glyphicon glyphicon-align-justify"></span></article>
+      <section class="header col-xs-12">
+        <header class="menu">
           <nav>
             <ul>
-              <li> <a href="#">Compartir Personal </a></li>
-              <li> <a href="#">Acerca del producto</a></li>
-              <li class="registrate"> <a href="#">Registrate</a></li>
+              <li> <a href="#" class="main">Compartir Personal </a></li>
+              <li> <a href="#" class="main">Acerca del producto</a></li>
+              <li class="registrate"> <a href="javascript:cambiarImagenFondo(twitter.png,banner)" class="register">Registrate</a></li>
             </ul>
           </nav>
         </header>
-      </article>
-      <section class="col-xs-12 col-md-12">
-        <article class="dina col-xs-12 col-md-6">
+      </section>
+      <section class="informacion">
+        <article class="col-xs-12 col-md-6">
           <h2 class="typed">Compartir Personal: <span id="typed"></span></h2>
         </article>
         <article class="formulario col-xs-12 col-md-6">
@@ -32,9 +34,53 @@
             <input type="text" name="nombre" placeholder="Ingresa tu nombre" class="form-control floating-label">
             <input type="email" name="email" placeholder="Ingresa tu correo electrónico" class="form-control floating-label">
             <input type="text" name="group" placeholder="Ingresa el titulo del grupo" class="form-control floating-label">
+            <input type="submit" value="REGISTRAR" class="btn green">
           </form>
         </article>
       </section>
+      <section class="intro col-xs-12 col-md-12">
+        <article class="col-xs-12 col-md-4">
+          <h2>Cloud Services</h2>
+          <center>
+            <!--img(src="http://www.bendinternet.com/attachments/Image/bhavitva21.png?template=generic",)--><img src="http://www.azzurricommunications.com/~/media/Images/Redesign/Circle%20Images/azzurri-lp-icons-cloud-services.ashx">
+          </center>
+          <p>Suscribete desde cualquier ubicacion con acceso a internet. Comparte actividades en cualquier momento desde cualquier conexion a internet sin importar el modelo de tu celular o navegador web. </p>
+        </article>
+        <article class="col-xs-12 col-md-4">
+          <h2>Tablero de avisos</h2>
+          <center><img src="http://www.plazamas.com/mastersite/imagen/NewIco_Theme_std_Contacto.png" class="green"></center>
+          <p>Los mejores avisos se comparten aun sino has hablado con tus colegas. Colabora con lo que esta pasando en este momento en todos los movimientos de tu grupo. </p>
+        </article>
+        <article class="col-xs-12 col-md-4">
+          <h2>Reuniones</h2>
+          <center><img src="http://www.parquedellago.com/images/icons/Iconos_parque-07.png"></center>
+          <p>Mas alla de la distribucion de la accesibilidad de tu grupo en internet tendras reuniones con tus amigos para actualizar tus planes. </p>
+        </article>
+      </section>
+    </section>
+    <section>
+      <article>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nisi possimus exercitationem nam officiis, similique odit corporis doloremque veritatis omnis magni deserunt ex dolorum! Fuga molestiae temporibus aliquam magni harum.</p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nisi possimus exercitationem nam officiis, similique odit corporis doloremque veritatis omnis magni deserunt ex dolorum! Fuga molestiae temporibus aliquam magni harum.</p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nisi possimus exercitationem nam officiis, similique odit corporis doloremque veritatis omnis magni deserunt ex dolorum! Fuga molestiae temporibus aliquam magni harum.</p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nisi possimus exercitationem nam officiis, similique odit corporis doloremque veritatis omnis magni deserunt ex dolorum! Fuga molestiae temporibus aliquam magni harum.</p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nisi possimus exercitationem nam officiis, similique odit corporis doloremque veritatis omnis magni deserunt ex dolorum! Fuga molestiae temporibus aliquam magni harum.</p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nisi possimus exercitationem nam officiis, similique odit corporis doloremque veritatis omnis magni deserunt ex dolorum! Fuga molestiae temporibus aliquam magni harum.</p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nisi possimus exercitationem nam officiis, similique odit corporis doloremque veritatis omnis magni deserunt ex dolorum! Fuga molestiae temporibus aliquam magni harum.</p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nisi possimus exercitationem nam officiis, similique odit corporis doloremque veritatis omnis magni deserunt ex dolorum! Fuga molestiae temporibus aliquam magni harum.</p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nisi possimus exercitationem nam officiis, similique odit corporis doloremque veritatis omnis magni deserunt ex dolorum! Fuga molestiae temporibus aliquam magni harum.</p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nisi possimus exercitationem nam officiis, similique odit corporis doloremque veritatis omnis magni deserunt ex dolorum! Fuga molestiae temporibus aliquam magni harum.</p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nisi possimus exercitationem nam officiis, similique odit corporis doloremque veritatis omnis magni deserunt ex dolorum! Fuga molestiae temporibus aliquam magni harum.</p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nisi possimus exercitationem nam officiis, similique odit corporis doloremque veritatis omnis magni deserunt ex dolorum! Fuga molestiae temporibus aliquam magni harum.</p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nisi possimus exercitationem nam officiis, similique odit corporis doloremque veritatis omnis magni deserunt ex dolorum! Fuga molestiae temporibus aliquam magni harum.</p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nisi possimus exercitationem nam officiis, similique odit corporis doloremque veritatis omnis magni deserunt ex dolorum! Fuga molestiae temporibus aliquam magni harum.</p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nisi possimus exercitationem nam officiis, similique odit corporis doloremque veritatis omnis magni deserunt ex dolorum! Fuga molestiae temporibus aliquam magni harum.</p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nisi possimus exercitationem nam officiis, similique odit corporis doloremque veritatis omnis magni deserunt ex dolorum! Fuga molestiae temporibus aliquam magni harum.</p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nisi possimus exercitationem nam officiis, similique odit corporis doloremque veritatis omnis magni deserunt ex dolorum! Fuga molestiae temporibus aliquam magni harum.</p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nisi possimus exercitationem nam officiis, similique odit corporis doloremque veritatis omnis magni deserunt ex dolorum! Fuga molestiae temporibus aliquam magni harum.</p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nisi possimus exercitationem nam officiis, similique odit corporis doloremque veritatis omnis magni deserunt ex dolorum! Fuga molestiae temporibus aliquam magni harum.</p>
+        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nisi possimus exercitationem nam officiis, similique odit corporis doloremque veritatis omnis magni deserunt ex dolorum! Fuga molestiae temporibus aliquam magni harum.</p>
+      </article>
     </section>
     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
     <script src="js/typed.js"></script>
