@@ -1,0 +1,38 @@
+doctype html
+html(lang="es")
+	head
+		meta(charset="UTF-8")
+		title Compartir Personal | Tablero de avisos
+		meta(name="viewport", content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
+		link(rel="stylesheet", href="estilos.css")
+		link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css")
+		link(rel="stylesheet", href="http://fezvrasta.github.io/bootstrap-material-design/dist/css/material-fullpalette.min.css")
+		link(href="http://fonts.googleapis.com/css?family=Lato:900", rel="stylesheet", type="text/css")
+	body
+		section.landing
+			article.header.col-xs-12
+				header
+					nav
+						ul
+							li 
+								a(href="#") Compartir Personal 
+							li 
+								a(href="#") Acerca del producto
+							li.registrate 
+								a(href="cambiarImagenFondo(img.png,banner)") Registrate
+			section.col-xs-12.col-md-12
+				article.dina.col-xs-12.col-md-6
+					h2.typed Compartir Personal: 
+						span#typed
+				article.formulario.col-xs-12.col-md-6
+					h2 	¡Registrate!
+					form(action="",method="get").form-group
+						input(type="text",name="nombre",placeholder="Ingresa tu nombre").form-control.floating-label
+						input(type="email",name="email",placeholder="Ingresa tu correo electrónico").form-control.floating-label
+						input(type="text",name="group",placeholder="Ingresa el titulo del grupo").form-control.floating-label
+					
+		script(src="http://code.jquery.com/jquery-2.1.4.min.js")
+		script(src="js/typed.js")
+		script(src="js/din.js")
+		
+			

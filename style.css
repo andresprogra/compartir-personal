@@ -1,0 +1,142 @@
+#banner {
+  background: url("http://36.media.tumblr.com/230cbd5a43b66061f4c8756a83b6ce65/tumblr_nqx7pp3iyj1tubinno1_1280.jpg") no-repeat fixed top;
+  background-position: cover;
+  -moz-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  padding: 1.8em;
+}
+#banner article.menu-movil {
+  color: #fff;
+  float: right;
+  font-size: 2em;
+}
+#banner header {
+  background: #000;
+  height: auto;
+  margin-bottom: 50px;
+}
+#banner header nav {
+  float: right;
+}
+#banner header nav ul li {
+  display: inline-block;
+  font-size: 1.4em;
+  font-weight: 700;
+  margin-right: 20px;
+}
+#banner header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #000;
+}
+#banner header nav ul li a.main:hover {
+  border-bottom: 4px solid #7dcd40;
+}
+#banner header nav ul li a.register {
+  border: 2px solid #fff;
+  padding: 6px 30px;
+}
+#banner section.informacion article {
+  padding-top: 13vh;
+}
+#banner section.informacion article h2.typed {
+  color: #fff;
+  font-size: 3em;
+  font-weight: 900;
+  text-align: center;
+  text-shadow: 4px 2px 4px #000;
+}
+#banner section.informacion article.formulario {
+  background: rgba(39,59,71,0.8);
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  padding: 3em 2em;
+}
+#banner section.informacion article.formulario h2 {
+  color: #fff;
+  font-size: 2.5em;
+  text-align: center;
+  text-shadow: 2px 2px 2px #000;
+}
+#banner section.informacion article.formulario form input {
+  color: #000;
+  font-size: 16px;
+  height: 37px;
+  margin: 10px 0;
+}
+section.intro {
+  padding: 2em 0em 8em;
+}
+section.intro article img {
+  background-color: #159be9;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  max-height: 170px;
+  max-width: 170px;
+}
+section.intro article img.green {
+  background-color: #7dcd40;
+}
+section.intro article h2 {
+  color: #fff;
+  font-weight: 700;
+  text-align: center;
+}
+section.intro article p {
+  background-color: rgba(39,59,71,0.8);
+  -webkit-border-radius: 0.4em;
+  border-radius: 0.4em;
+  color: #fff;
+  font-size: 1.3em;
+  font-weight: 700;
+  line-height: 1.2em;
+  margin: 20px 0;
+  padding: 1em;
+  text-align: justify;
+}
+.btn {
+  border: none;
+  -webkit-border-radius: 0.4em !important;
+  border-radius: 0.4em !important;
+  box-sizign: border-box !important;
+  color: #fff !important;
+  display: inline-block !important;
+  float: right;
+  font-size: 20px !important;
+  font-weight: 700 !important;
+  height: 3em !important;
+  line-height: 2.8em !important;
+  line-height: 3em !important;
+  padding: 0 1.5em !important;
+  text-shadow: 0 1px rgba(0,0,0,0.5) !important;
+}
+.btn.green {
+  background: -o-linear-gradient(#7dcd40, #75c935) !important;
+  background: -ms-linear-gradient(#7dcd40, #75c935) !important;
+  background: -moz-linear-gradient(#7dcd40, #75c935) !important;
+  background: -webkit-linear-gradient(#7dcd40, #75c935) !important;
+  background: linear-gradient(#7dcd40, #75c935) !important;
+  border-bottom: 1px solid #599928 !important;
+  border-bottom-width: 4px !important;
+}
+.btn:hover {
+  color: #fff;
+}
+.btn:active {
+  border-bottom-width: 1px;
+  line-height: 3em;
+}
+@media screen and (max-width: 600px) {
+  h2.typed {
+    font-size: 1.5em !important;
+  }
+}
+@media screen and (max-width: 991px) {
+  section.informacion article {
+    padding-top: 1vh !important;
+  }
+  header.menu {
+    display: none;
+  }
+}

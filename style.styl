@@ -1,0 +1,139 @@
+@import 'nib/vendor'
+
+vendor-prefixes = o ms moz webkit official
+
+azul = #273B47
+verde = #7DCD40
+link = "http://36.media.tumblr.com/230cbd5a43b66061f4c8756a83b6ce65/tumblr_nqx7pp3iyj1tubinno1_1280.jpg"
+
+	
+#banner
+	//background url(http://36.media.tumblr.com/95f5df495c2860468df6955b5d7eaa0a/tumblr_nqx90nZCtb1tubinno1_1280.jpg) no-repeat center
+	background url(link)  no-repeat fixed top
+	background-position cover
+	background-size 100% 100%
+	padding 1.8em
+	article.menu-movil
+		color white		
+		float right
+		font-size 2em
+		
+	header
+		background black
+		height auto
+		margin-bottom 50px
+		nav 
+			float right
+			ul
+				li					
+					display inline-block
+					font-size 1.4em
+					font-weight 700
+					margin-right 20px
+					a
+						color white
+						text-decoration none
+						text-shadow 1px 1px 1px #000
+						&.main:hover
+							border-bottom 4px solid verde
+						&.register
+							border 2px solid white
+							padding 6px 30px
+	section.informacion
+		article
+			padding-top 13vh
+			h2.typed
+				color white
+				font-size 3em
+				font-weight 900
+				text-align center
+				text-shadow 4px 2px 4px rgba(0,0,0,1)
+		article.formulario
+			background rgba(azul,.8)
+			border-radius 5px
+			padding 3em 2em
+			h2
+				color white
+				font-size 2.5em
+				text-align center
+				text-shadow 2px 2px 2px #000
+			form
+				input
+					color black
+					font-size 16px
+					height 37px
+					margin 10px 0
+					
+section.intro
+	//link = "images/mockup-laptop-domdesign.jpg"
+	//link = "http://static1.squarespace.com/static/548b49d8e4b0b57ba1823fd5/54e50008e4b0a383277535ba/54e50032e4b0390891d199e0/1424293940102/DMV-laptop-mockup.jpg?format=1000w"
+	//link ="http://www.inspiredrive.com/wp-content/uploads/2014/10/Macbook-Air-Presentation-Mockups-21.jpg"
+	//background url(link) no-repeat center fixed
+	//background-position cover
+	//background-size 100%
+	//height auto
+	padding 2em 0em 8em
+	article
+		img
+			background-color #159BE9
+			border-radius 50%
+			max-height 170px
+			max-width 170px
+			&.green
+				background-color verde
+		h2
+			color white
+			font-weight 700
+			text-align center
+		p
+			background-color rgba(azul,0.8)
+			border-radius .4em
+			color white
+			font-size 1.3em
+			font-weight 700
+			line-height 1.2em
+			margin 20px 0
+			padding 1em
+			text-align justify
+			
+			
+			
+		
+.btn
+	border none
+	border-radius .4em !important
+	box-sizign border-box !important
+	color #FFF !important
+	display inline-block !important
+	float right
+	font-size 20px !important
+	font-weight 700 !important
+	height 3em !important
+	line-height 2.8em !important
+	line-height 3em !important
+	padding 0 1.5em !important
+	text-shadow 0 1px rgba(#000,.5) !important
+	&.green
+		background linear-gradient(verde,darken(verde,3)) !important
+		border-bottom 1px solid darken(verde,15) !important
+		border-bottom-width 4px !important
+	&:hover
+		color white
+	&:active
+		border-bottom-width 1px
+		line-height 3em
+
+
+
+
+
+@media screen and (max-width 600px)
+	h2.typed
+		font-size 1.5em !important
+		
+@media screen and (max-width 991px)
+	section.informacion
+		article
+			padding-top 1vh !important
+	header.menu
+		display none	

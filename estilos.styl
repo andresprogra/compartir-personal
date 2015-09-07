@@ -1,0 +1,64 @@
+@import 'nib/vendor'
+
+vendor-prefixes = o ms moz webkit official
+
+azul = #273B47
+verde = #7DCD40
+
+*
+	margin 0 
+	padding 0
+body
+	font-family "Montserrat",sans-serif
+
+section.landing
+	background url(http://36.media.tumblr.com/95f5df495c2860468df6955b5d7eaa0a/tumblr_nqx90nZCtb1tubinno1_1280.jpg) no-repeat
+	background-position cover
+	background-size 100% 100%
+	header
+		height auto
+		margin-bottom 50px
+		nav 
+			float right
+			ul
+				li					
+					display inline-block
+					font-size 1.4em
+					font-weight 700
+					padding .5em
+					
+					a
+						color white
+						text-decoration none
+						text-shadow 1px 1px 1px #000
+						&:hover
+							border-bottom 4px solid verde
+	article.dina
+		height 250px
+		h2.typed
+			color white
+			font-size 3em
+			text-align center
+			text-shadow 1px 1px 1px #000
+	article.formulario
+		background rgba(#000,.5)
+		border-radius 5px
+		padding 3em 2em
+		h2
+			color white
+			font-size 2.5em
+			text-align center
+			text-shadow 2px 2px 2px #000
+		form
+			input
+				color black
+				font-size 16px
+				height 37px
+				margin 10px 0
+
+
+@media screen and (max-width 600px)
+	h2.typed
+		font-size 1.5em !important
+	article.dina
+		height 170px !important
