@@ -4,35 +4,57 @@ html(lang="es")
 		meta(charset="UTF-8")
 		title Compartir Personal | Tablero de avisos
 		meta(name="viewport", content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0")
-		link(rel="stylesheet", href="estilos.css")
-		link(rel="stylesheet", href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css")
+		link(rel="stylesheet", href="style.css")
+		link(rel="stylesheet", href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.min.css")
 		link(rel="stylesheet", href="http://fezvrasta.github.io/bootstrap-material-design/dist/css/material-fullpalette.min.css")
+		//link(rel="stylesheet", href="http://www.andresdominguez.mx/beta/estilos.css")
 		link(href="http://fonts.googleapis.com/css?family=Lato:900", rel="stylesheet", type="text/css")
 	body
-		section.landing
-			article.header.col-xs-12
-				header
+		section#banner.col-xs-12
+			article.menu-movil
+				span.glyphicon.glyphicon-align-justify
+			section.header.col-xs-12
+				header.menu
 					nav
 						ul
 							li 
-								a(href="#") Compartir Personal 
+								a(href="#").main Compartir Personal 
 							li 
-								a(href="#") Acerca del producto
+								a(href="#").main Acerca del producto
 							li.registrate 
-								a(href="cambiarImagenFondo(img.png,banner)") Registrate
-			section.col-xs-12.col-md-12
-				article.dina.col-xs-12.col-md-6
+								a(href="#").register Registrate
+			section.informacion
+				article.col-xs-12.col-md-6
 					h2.typed Compartir Personal: 
 						span#typed
 				article.formulario.col-xs-12.col-md-6
 					h2 	¡Registrate!
 					form(action="",method="get").form-group
-						input(type="text",name="nombre",placeholder="Ingresa tu nombre").form-control.floating-label
-						input(type="email",name="email",placeholder="Ingresa tu correo electrónico").form-control.floating-label
-						input(type="text",name="group",placeholder="Ingresa el titulo del grupo").form-control.floating-label
-					
+						input(type="text",name="nombre",placeholder="Ingresa tu nombre", autocomplete="off").form-control.floating-label
+						input(type="email",name="email",placeholder="Ingresa tu correo electrónico", autocomplete="off").form-control.floating-label
+						input(type="text",name="group",placeholder="Ingresa el titulo del grupo", autocomplete="off").form-control.floating-label
+						input(type="submit",value="REGISTRAR").btn.green
+			section.intro.col-xs-12.col-md-12
+				article.col-xs-12.col-md-4
+					h2.titulos-service Cloud Services
+					center
+						//img(src="http://www.bendinternet.com/attachments/Image/bhavitva21.png?template=generic",)
+						img(src="http://www.azzurricommunications.com/~/media/Images/Redesign/Circle%20Images/azzurri-lp-icons-cloud-services.ashx")
+					p Suscribete desde cualquier ubicacion con acceso a internet. Comparte actividades en cualquier momento desde cualquier conexion a internet sin importar el modelo de tu celular o navegador web. 
+				article.col-xs-12.col-md-4
+					h2.titulos-service Tablero de avisos
+					center
+						img(src="http://www.plazamas.com/mastersite/imagen/NewIco_Theme_std_Contacto.png",).green
+					p Los mejores avisos se comparten aun sino has hablado con tus colegas. Colabora con lo que esta pasando en este momento en todos los movimientos de tu grupo. 
+				article.col-xs-12.col-md-4
+					h2.titulos-service Reuniones
+					center
+						img(src="http://www.parquedellago.com/images/icons/Iconos_parque-07.png",)
+					p Mas alla de la distribucion de la accesibilidad de tu grupo en internet tendras reuniones con tus amigos para actualizar tus planes. 
+		section
+			article
+				- for (var x=0;x<20;x++)
+					p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nisi possimus exercitationem nam officiis, similique odit corporis doloremque veritatis omnis magni deserunt ex dolorum! Fuga molestiae temporibus aliquam magni harum.
 		script(src="http://code.jquery.com/jquery-2.1.4.min.js")
 		script(src="js/typed.js")
 		script(src="js/din.js")
-		
-			

@@ -8,6 +8,7 @@
 }
 #banner article.menu-movil {
   color: #fff;
+  display: none;
   float: right;
   font-size: 2em;
 }
@@ -60,7 +61,7 @@
   text-shadow: 2px 2px 2px #000;
 }
 #banner section.informacion article.formulario form input {
-  color: #000;
+  color: #fff !important;
   font-size: 16px;
   height: 37px;
   margin: 10px 0;
@@ -82,6 +83,9 @@ section.intro article h2 {
   color: #fff;
   font-weight: 700;
   text-align: center;
+}
+section.intro article h2.titulos-service {
+  text-shadow: 1px 1px 1px #000;
 }
 section.intro article p {
   background-color: rgba(39,59,71,0.8);
@@ -138,5 +142,8 @@ section.intro article p {
   }
   header.menu {
     display: none;
+  }
+  .menu-movil {
+    display: block !important;
   }
 }
