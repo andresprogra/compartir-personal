@@ -100,15 +100,39 @@ section.intro
 			text-align justify
 			
 			
-			
-		
+section.pay
+	background url(images/tc.jpg) no-repeat left 
+	background-color #ffba4b
+	padding 10em 0
+	
+	article
+		text-align right
+		h2			
+			color white
+			font-weight 800
+			text-shadow 1px 1px 1px #000
+section.screen
+	background url(images/mockup-laptop-domdesign.jpg) fixed no-repeat
+	background-size 100% 100%
+	color white
+	padding 10em 0em	
+	text-shadow 1px 1px 1px #000
+	h2
+		font-weight 800
+		text-align justify
+section.register-footer
+	background rgba(gray,.1)
+	padding 3em 0em
+	text-align center
+	h2
+		color azul
+		font-weight 800
 .btn
 	border none
 	border-radius .4em !important
 	box-sizign border-box !important
 	color #FFF !important
 	display inline-block !important
-	float right
 	font-size 20px !important
 	font-weight 700 !important
 	height 3em !important
@@ -120,14 +144,43 @@ section.intro
 		background linear-gradient(verde,darken(verde,3)) !important
 		border-bottom 1px solid darken(verde,15) !important
 		border-bottom-width 4px !important
+	&.right
+		float right
 	&:hover
 		color white
 	&:active
 		border-bottom-width 1px
 		line-height 3em
+	
 
-
-
+footer
+	padding 1em
+	a
+		color black
+		text-decoration none
+		&:hover
+			color black
+			text-decoration none
+	p.copy
+		font-weight 700
+		margin-bottom 0
+	hr 
+		background rgba(black,.4)
+		margin-bottom 5px
+		margin-top 1px
+	.menu-footer
+		display inline-block
+	.byadg
+		
+		text-decoration none
+	article
+		padding 0
+		margin 0
+		a.menu-footer
+			margin-left 0
+			margin-right 20px
+		a.by
+			text-align right
 
 
 @media screen and (max-width 600px)
@@ -142,3 +195,5 @@ section.intro
 		display none
 	.menu-movil
 		display block !important
+	.m-fo
+		display none

@@ -33,7 +33,7 @@ html(lang="es")
 						input(type="text",name="nombre",placeholder="Ingresa tu nombre", autocomplete="off").form-control.floating-label
 						input(type="email",name="email",placeholder="Ingresa tu correo electrónico", autocomplete="off").form-control.floating-label
 						input(type="text",name="group",placeholder="Ingresa el titulo del grupo", autocomplete="off").form-control.floating-label
-						input(type="submit",value="REGISTRAR").btn.green
+						input(type="submit",value="REGISTRAR").btn.green.right
 			section.intro.col-xs-12.col-md-12
 				article.col-xs-12.col-md-4
 					h2.titulos-service Cloud Services
@@ -51,10 +51,28 @@ html(lang="es")
 					center
 						img(src="http://www.parquedellago.com/images/icons/Iconos_parque-07.png",)
 					p Mas alla de la distribucion de la accesibilidad de tu grupo en internet tendras reuniones con tus amigos para actualizar tus planes. 
-		section
-			article
-				- for (var x=0;x<20;x++)
-					p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. A nisi possimus exercitationem nam officiis, similique odit corporis doloremque veritatis omnis magni deserunt ex dolorum! Fuga molestiae temporibus aliquam magni harum.
+
+		section.pay.col-xs-12
+			article.container
+				article.col-md-7.col-md-offset-5
+					h2.titulos-service Registrate gratis sin necesidad de tarjetas de crédito/débito
+		section.screen.col-xs-12
+			article.col-md-6.col-xs-12
+				h2 Los mejores avisos se comparten aun sino has hablado con tus colegas. Colabora con lo que esta pasando en este momento en todos los movimientos de tu grupo. 
+		section.register-footer.col-xs-12
+			article.container
+				h2 Sácale el mayor partido a los Cloud Services
+				a(href="#").btn.green REGISTRAR
+		footer.col-xs-12
+			p.copy Compartir Personal | Todos los derechos reservados 2015
+			hr
+			
+			article.col-md-8.m-fo
+				a(href="").menu-footer CompartirPersonal
+				a(href="").menu-footer Acerca del producto
+				a(href="").menu-footer Registrate
+			article.col-md-4
+				a(href="http://www.andresdominguez.mx").col-xs-12.by Diseño y desarrollo: Andrés Domínguez
 		script(src="http://code.jquery.com/jquery-2.1.4.min.js")
 		script(src="js/typed.js")
 		script(src="js/din.js")

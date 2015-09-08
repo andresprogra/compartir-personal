@@ -99,6 +99,41 @@ section.intro article p {
   padding: 1em;
   text-align: justify;
 }
+section.pay {
+  background: url("images/tc.jpg") no-repeat left;
+  background-color: #ffba4b;
+  padding: 10em 0;
+}
+section.pay article {
+  text-align: right;
+}
+section.pay article h2 {
+  color: #fff;
+  font-weight: 800;
+  text-shadow: 1px 1px 1px #000;
+}
+section.screen {
+  background: url("images/mockup-laptop-domdesign.jpg") fixed no-repeat;
+  -moz-background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  color: #fff;
+  padding: 10em 0em;
+  text-shadow: 1px 1px 1px #000;
+}
+section.screen h2 {
+  font-weight: 800;
+  text-align: justify;
+}
+section.register-footer {
+  background: rgba(128,128,128,0.1);
+  padding: 3em 0em;
+  text-align: center;
+}
+section.register-footer h2 {
+  color: #273b47;
+  font-weight: 800;
+}
 .btn {
   border: none;
   -webkit-border-radius: 0.4em !important;
@@ -106,7 +141,6 @@ section.intro article p {
   box-sizign: border-box !important;
   color: #fff !important;
   display: inline-block !important;
-  float: right;
   font-size: 20px !important;
   font-weight: 700 !important;
   height: 3em !important;
@@ -124,12 +158,52 @@ section.intro article p {
   border-bottom: 1px solid #599928 !important;
   border-bottom-width: 4px !important;
 }
+.btn.right {
+  float: right;
+}
 .btn:hover {
   color: #fff;
 }
 .btn:active {
   border-bottom-width: 1px;
   line-height: 3em;
+}
+footer {
+  padding: 1em;
+}
+footer a {
+  color: #000;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #000;
+  text-decoration: none;
+}
+footer p.copy {
+  font-weight: 700;
+  margin-bottom: 0;
+}
+footer hr {
+  background: rgba(0,0,0,0.4);
+  margin-bottom: 5px;
+  margin-top: 1px;
+}
+footer .menu-footer {
+  display: inline-block;
+}
+footer .byadg {
+  text-decoration: none;
+}
+footer article {
+  padding: 0;
+  margin: 0;
+}
+footer article a.menu-footer {
+  margin-left: 0;
+  margin-right: 20px;
+}
+footer article a.by {
+  text-align: right;
 }
 @media screen and (max-width: 600px) {
   h2.typed {
@@ -145,5 +219,8 @@ section.intro article p {
   }
   .menu-movil {
     display: block !important;
+  }
+  .m-fo {
+    display: none;
   }
 }
