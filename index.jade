@@ -8,14 +8,6 @@ html(lang="es")
 		link(rel="stylesheet", href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.2/css/bootstrap.min.css")
 		link(rel="stylesheet", href="http://fezvrasta.github.io/bootstrap-material-design/dist/css/material-fullpalette.min.css")
 		link(href="http://fonts.googleapis.com/css?family=Lato:900", rel="stylesheet", type="text/css")
-		link(rel="stylesheet", href="css/animate.css")
-		script(src="http://code.jquery.com/jquery-2.1.4.min.js")
-		script(src="js/typed.js")
-		script(src="js/wow.min.js")
-		script(src="js/din.js")
-		
-
-
 	body
 		section#banner.col-xs-12
 			article.menu-movil
@@ -35,25 +27,25 @@ html(lang="es")
 					h2.typed Compartir Personal: 
 						span#typed
 				article.formulario.col-xs-12.col-md-6
-					h2(data-wow-duration="2s").wow.bounceIn ¡Registrate!
+					h2 ¡Registrate!
 					form(action="",method="get").form-group
 						input(type="text",name="nombre",placeholder="Ingresa tu nombre", autocomplete="off").form-control.floating-label
 						input(type="email",name="email",placeholder="Ingresa tu correo electrónico", autocomplete="off").form-control.floating-label
 						input(type="text",name="group",placeholder="Ingresa el titulo del grupo", autocomplete="off").form-control.floating-label
 						input(type="submit",value="REGISTRAR").btn.green.right
 			section.intro.col-xs-12.col-md-12
-				article(data-wow-duration="3s").col-xs-12.col-md-4.wow.bounceInDown
+				article.col-xs-12.col-md-4
 					h2.titulos-service Cloud Services
 					center
 						//img(src="http://www.bendinternet.com/attachments/Image/bhavitva21.png?template=generic",)
 						img(src="http://www.azzurricommunications.com/~/media/Images/Redesign/Circle%20Images/azzurri-lp-icons-cloud-services.ashx")
 					p Suscribete desde cualquier ubicacion con acceso a internet. Comparte actividades en cualquier momento desde cualquier conexion a internet sin importar el modelo de tu celular o navegador web. 
-				article(data-wow-duration="3s").col-xs-12.col-md-4.wow.bounceInRight
+				article.col-xs-12.col-md-4
 					h2.titulos-service Tablero de avisos
 					center
 						img(src="http://www.plazamas.com/mastersite/imagen/NewIco_Theme_std_Contacto.png",).green
 					p Los mejores avisos se comparten aun sino has hablado con tus colegas. Colabora con lo que esta pasando en este momento en todos los movimientos de tu grupo. 
-				article.col-xs-12.col-md-4.wow.bounceInUp
+				article.col-xs-12.col-md-4
 					h2.titulos-service Reuniones
 					center
 						img(src="http://www.parquedellago.com/images/icons/Iconos_parque-07.png",)
@@ -61,10 +53,10 @@ html(lang="es")
 
 		section.pay.col-xs-12
 			article.container
-				article(data-wow-duration="3s").col-md-7.col-md-offset-5.wow.fadeIn
+				article.col-md-7.col-md-offset-5
 					h2.titulos-service Registrate gratis sin necesidad de tarjetas de crédito/débito
 		section.screen.col-xs-12
-			article(data-wow-duration="3s").col-md-6.col-xs-12.wow.fadeIn
+			article.col-md-6.col-xs-12
 				h2 Los mejores avisos se comparten aun sino has hablado con tus colegas. Colabora con lo que esta pasando en este momento en todos los movimientos de tu grupo. 
 		section.register-footer.col-xs-12
 			article.container
@@ -80,4 +72,6 @@ html(lang="es")
 				a(href="").menu-footer Registrate
 			article.col-md-4
 				a(href="http://www.andresdominguez.mx").col-xs-12.by Diseño y desarrollo: Andrés Domínguez
-	
+		script(src="http://code.jquery.com/jquery-2.1.4.min.js")
+		script(src="js/typed.js")
+		script(src="js/din.js")
